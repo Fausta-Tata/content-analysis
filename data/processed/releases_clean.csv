@@ -1,0 +1,67 @@
+﻿release_id,group,release_name,release_date,type,is_main_realeses
+1,aespa,Dirty Work,2025-06-27,single album,True
+2,aespa,Dirty Work (Remixes),2025-06-30,remix single,False
+3,aespa,Dark Arts,2025-07-15,promotional single,False
+4,aespa,Rich Man,2025-09-05,mini album,True
+5,aespa,Rich Man (English Ver.),2025-09-12,single,False
+6,aespa,Rich Man (Remixes),2025-09-19,remix single,False
+7,aespa,Gabby's Dollhouse: The Movie Soundtrack,2025-09-26,soundtrack single,False
+8,aespa,SYNK : aeXIS LINE - 2025 Special Digital Single,2025-11-17,special single,False
+9,aespa,Keychain,2026-02-27,soundtrack single,False
+10,aespa,ATTITUDE,2026-03-06,digital single,False
+11,aespa,WDA (Whole Different Animal) (feat. G-DRAGON),2026-05-11,digital single,False
+12,aespa,LEMONADE,2026-05-29,studio album,True
+13,aespa,KISS N TELL,2026-07-24,mini album,True
+14,aespa,SYNK : aeXIS LINE - 2026 Special Digital Single,2026-08-09,special single,False
+15,aespa,SYNK : COMPLaeXITY - 2026 Special Digital Single,2026-09-14,special single,False
+16,aespa,Santa Baby,2026-11-13,collaboration single,False
+17,hearts2hearts,The Chase,2025-02-24,single album,True
+18,hearts2hearts,STYLE,2025-06-18,digital single,False
+19,hearts2hearts,Pretty Please,2025-09-24,digital single,False
+20,hearts2hearts,FOCUS,2025-10-20,mini album,True
+21,hearts2hearts,FOCUS (Remixes),2025-11-21,remix album,False
+22,hearts2hearts,ScreaM Rookies : The Chase (Remixes),2025-12-17,remix album,False
+23,hearts2hearts,RUDE!,2026-02-20,digital single,False
+24,hearts2hearts,RUDE! (Japanese Ver.),2026-03-18,japanese digital single,False
+25,hearts2hearts,iScreaM Vol.39 : RUDE! (Remixes),2026-03-27,remix single,False
+26,hearts2hearts,Lemon Tang,2026-06-22,mini album,True
+27,hearts2hearts,ICONIC HEART,2026-08-10,japanese single,False
+28,hearts2hearts,Moonride,2026-09-09,promotional single,False
+29,hearts2hearts,ICONIC HEART (Korean Ver.),2026-10-05,digital single,False
+30,hearts2hearts,Candy Box Lover,2026-10-11,soundtrack single,False
+31,hearts2hearts,Next Chapter,2026-10-16,promotional single,False
+32,nct 127,"You In Vague Memory (2025 SMTOWN : THE CULTURE, THE FUTURE)",2025-02-14,participation single,False
+33,nct 127,K-POP ScreaM 2,2025-04-11,remix album,False
+34,nct 127,BLINGY,2026-08-24,studio album,True
+35,nct 127,iScreaM Vol.41 : Blingy Remixes,2026-09-30,remix single,False
+36,nct dream,Go Back To The Future,2025-07-14,studio album,True
+37,nct dream,Beat It Up,2025-11-17,mini album,True
+38,nct dream,DREAM AFTER DREAM,2026-11-09,studio album,True
+39,nct wish,Miracle,2025-01-22,digital single,False
+40,nct wish,Make You Shine (English Version),2025-03-28,soundtrack single,False
+41,nct wish,poppop,2025-04-14,mini album,True
+42,nct wish,Surf,2025-08-12,digital single,False
+43,nct wish,COLOR,2025-09-01,mini album,True
+44,nct wish,Would You Marry Me? OST Pt. 3,2025-10-17,soundtrack single,False
+45,nct wish,Dreamcatcher,2025-11-06,digital single,False
+46,nct wish,Princess Catch! Teenieping : Princepingsong,2025-12-11,soundtrack single,False
+47,nct wish,Wishcat Magic Card - Wishing Star,2026-01-07,soundtrack single,False
+48,nct wish,WISHLIST,2026-01-14,japanese mini album,False
+49,nct wish,Same Sky,2026-02-27,soundtrack single,False
+50,nct wish,Ode to Love,2026-04-20,studio album,True
+51,nct wish,K-POP ScreaM 3,2026-05-11,remix album,False
+52,nct wish,RE:WORKS 2,2026-10-08,remix album,False
+53,nct wish,I SPY,2026-10-12,mini album,True
+54,riize,Hug,2025-01-08,digital single,False
+55,riize,ODYSSEY,2025-05-19,studio album,True
+56,riize,Fame,2025-11-24,single album,True
+57,riize,All of You,2026-02-09,japanese single,False
+58,riize,Perfect Crown OST Part. 4,2026-04-18,soundtrack single,False
+59,riize,KILL SHOT,2026-04-19,japanese digital single,False
+60,riize,II,2026-06-15,mini album,True
+61,riize,Sunburst,2026-08-26,japanese single,False
+62,riize,Insomnia,2026-10-26,digital single,False
+63,riize,Lowkey (with PLAVE),2026-11-30,collaboration single,False
+64,wayv,BIG BANDS,2025-07-18,mini album,True
+65,wayv,Eternal White,2025-12-08,special album,False
+66,wayv,Vision Wings,2026-08-10,mini album,True

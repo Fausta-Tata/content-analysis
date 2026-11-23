@@ -2,11 +2,15 @@ import pandas as pd
 from dotenv import load_dotenv
 from googleapiclient.discovery import build
 import os
+import sys
+from pathlib import Path
 
-from src.config import ENV_PATH, RAW, CUTOFF, CHANNELS
+ROOT = Path(__file__).resolve().parent.parent   
+sys.path.append(str(ROOT))
+
+from config import ENV_PATH, RAW, CUTOFF, CHANNELS
 
 load_dotenv(ENV_PATH)
-
 
 def get_youtube_api():
     """Create a YouTube API client."""

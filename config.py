@@ -1,6 +1,6 @@
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent  
 RAW = ROOT / "data" / "raw"
 PROCESSED = ROOT / "data" / "processed"
 ENV_PATH = ROOT / ".env"
@@ -12,10 +12,10 @@ CHANNELS = {
     "aespa"         : "UC9GtSLeksfK4yuJ_g1lgQbg",
     "riize"         : "UCdVD0MsYecQaIE5Ru-pOIQQ",
     "hearts2hearts" : "UC7Q3HUnJA3nvjZR2JeMn2Cw",
-    "nct_dream"     : "UCXURHJRGr4-EB3l87kcbElw",
-    "nct_127"       : "UCk2E0dbAyEJWnrN2bbQOcbg",
-    "nct_wish"      : "UCiZqWVAeChfqlom5ZPR3ZJA",
-    "way_v"         : "UC-ZHt5Zgadfx-B1CM63Lqew"
+    "nct dream"     : "UCXURHJRGr4-EB3l87kcbElw",
+    "nct 127"       : "UCk2E0dbAyEJWnrN2bbQOcbg",
+    "nct wish"      : "UCiZqWVAeChfqlom5ZPR3ZJA",
+    "wayv"         : "UC-ZHt5Zgadfx-B1CM63Lqew"
 }
 
 
