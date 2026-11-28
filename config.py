@@ -18,9 +18,8 @@ CHANNELS = {
     "wayv"         : "UC-ZHt5Zgadfx-B1CM63Lqew"
 }
 
-
 PRE_DAYS = 30
 DURING_DAYS = 14
 POST_DAYS = 42
 
-MAIN_TYPES = ["single album", "mini album", "studio album"]
+MAIN_TYPES = ["digital single", "single album", "mini album", "studio album"]

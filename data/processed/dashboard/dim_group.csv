@@ -1,0 +1,8 @@
+﻿group,group_label,is_nct,is_core
+aespa,AESPA,False,True
+hearts2hearts,H2H,False,True
+nct 127,NCT 127,True,False
+nct dream,NCT DREAM,True,False
+nct wish,NCT WISH,True,False
+riize,RIIZE,False,True
+wayv,WAYV,True,False

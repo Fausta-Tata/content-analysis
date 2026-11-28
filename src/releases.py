@@ -1,6 +1,12 @@
 """This File Make Manual Data for Music Releases from 2025 Until 2026"""
 import os
 import pandas as pd
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent   
+sys.path.append(str(ROOT))
+from config import MAIN_TYPES
 
 releases = pd.DataFrame([
     {"group": "aespa", "release_name": "Dirty Work", "release_date": "2025-06-27", "type": "single album"},
@@ -11,7 +17,7 @@ releases = pd.DataFrame([
     {"group": "aespa", "release_name": "Rich Man (Remixes)", "release_date": "2025-09-19", "type": "remix single"},
     {"group": "aespa", "release_name": "Gabby's Dollhouse: The Movie Soundtrack", "release_date": "2025-09-26", "type": "soundtrack single"},
     {"group": "aespa", "release_name": "SYNK : aeXIS LINE - 2025 Special Digital Single", "release_date": "2025-11-17", "type": "special single"},
-    {"group": "riize", "release_name": "Hug", "release_date": "2025-01-08", "type": "digital single"},
+    {"group": "riize", "release_name": "Hug", "release_date": "2025-01-08", "type": "digital single special"},
     {"group": "riize", "release_name": "ODYSSEY", "release_date": "2025-05-19", "type": "studio album"},
     {"group": "riize", "release_name": "Fame", "release_date": "2025-11-24", "type": "single album"},
     {"group": "hearts2hearts", "release_name": "The Chase", "release_date": "2025-02-24", "type": "single album"},
@@ -24,7 +30,7 @@ releases = pd.DataFrame([
     {"group": "nct 127", "release_name": "K-POP ScreaM 2", "release_date": "2025-04-11", "type": "remix album"},
     {"group": "nct dream", "release_name": "Go Back To The Future", "release_date": "2025-07-14", "type": "studio album"},
     {"group": "nct dream", "release_name": "Beat It Up", "release_date": "2025-11-17", "type": "mini album"},
-    {"group": "nct wish", "release_name": "Miracle", "release_date": "2025-01-22", "type": "digital single"},
+    {"group": "nct wish", "release_name": "Miracle", "release_date": "2025-01-22", "type": "digital single special"},
     {"group": "nct wish", "release_name": "Make You Shine (English Version)", "release_date": "2025-03-28", "type": "soundtrack single"},
     {"group": "nct wish", "release_name": "poppop", "release_date": "2025-04-14", "type": "mini album"},
     {"group": "nct wish", "release_name": "Surf", "release_date": "2025-08-12", "type": "digital single"},
@@ -35,7 +41,7 @@ releases = pd.DataFrame([
     {"group": "wayv", "release_name": "BIG BANDS", "release_date": "2025-07-18", "type": "mini album"},
     {"group": "wayv", "release_name": "Eternal White", "release_date": "2025-12-08", "type": "special album"},
     {"group": "aespa", "release_name": "Keychain", "release_date": "2026-02-27", "type": "soundtrack single"},
-    {"group": "aespa", "release_name": "ATTITUDE", "release_date": "2026-03-06", "type": "digital single"},
+    {"group": "aespa", "release_name": "ATTITUDE", "release_date": "2026-03-06", "type": "soundtrack single"},
     {"group": "aespa", "release_name": "WDA (Whole Different Animal) (feat. G-DRAGON)", "release_date": "2026-05-11", "type": "digital single"},
     {"group": "aespa", "release_name": "LEMONADE", "release_date": "2026-05-29", "type": "studio album"},
     {"group": "aespa", "release_name": "KISS N TELL", "release_date": "2026-07-24", "type": "mini album"},
@@ -73,8 +79,7 @@ releases = pd.DataFrame([
 
 """Choose Main Types of The Realeses"""
 #print(realeses['type'].unique())
-main_types = ['single album', 'mini album', 'studio album']
-releases['is_main_realeses'] = releases['type'].isin(main_types)
+releases['is_main_releases'] = releases['type'].isin(MAIN_TYPES)
 
 # Sort Data with group and realese_date
 releases = releases.sort_values(['group', 'release_date']).reset_index(drop=True)
